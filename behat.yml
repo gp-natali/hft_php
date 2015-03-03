@@ -1,0 +1,9 @@
+default:
+  extensions:
+    Behat\MinkExtension:
+      base_url: http://www.harborfreight.com
+      goutte: ~
+  suites:
+    my_suite:
+      contexts:
+        - Behat\MinkExtension\Context\MinkContext
